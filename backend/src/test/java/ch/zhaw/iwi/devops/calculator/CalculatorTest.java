@@ -79,17 +79,17 @@ public class CalculatorTest {
 
 	//adding test to see differences in jacoco
 	@Test
-	public void addPositiveNumbers() {
+	public void newRandomTest1() {
 		Calculator calculator = new Calculator();
-		int result = calculator.processNumbers(3,5,'+');
-		Assertions.assertEquals(8, result);
+		int result = calculator.processNumbers(5,5,'+');
+		Assertions.assertEquals(10, result);
 	}
 
 	@Test
-	public void addPositiveNumbers() {
+	public void newRandomTest2() {
 		Calculator calculator = new Calculator();
-		int result = calculator.processNumbers(3,5,'+');
-		Assertions.assertEquals(8, result);
+		int result = calculator.processNumbers(10,10,'+');
+		Assertions.assertEquals(20, result);
 	}
 }
 
