@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
 
-	/*@Test
+	@Test
 	public void addPositiveNumbers() {
 		Calculator calculator = new Calculator();
 		int result = calculator.processNumbers(3,5,'+');
