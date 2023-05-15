@@ -24,7 +24,7 @@ public class CalculatorTest {
 	public void multiplayPositiveNumbers() {
 		Calculator calculator= new Calculator();
 		int result = calculator.processNumbers(3, 5, '*');
-		Assertions.assertEquals(15,result); */
+		Assertions.assertEquals(15,result); 
 	}
 
 	@Test
