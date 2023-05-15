@@ -76,6 +76,21 @@ public class CalculatorTest {
 		int result = calculator.processNumbers(5, 10, 'm');
 		Assertions.assertEquals(10, result);
 	}
+
+	//adding test to see differences in jacoco
+	@Test
+	public void addPositiveNumbers() {
+		Calculator calculator = new Calculator();
+		int result = calculator.processNumbers(3,5,'+');
+		Assertions.assertEquals(8, result);
+	}
+
+	@Test
+	public void addPositiveNumbers() {
+		Calculator calculator = new Calculator();
+		int result = calculator.processNumbers(3,5,'+');
+		Assertions.assertEquals(8, result);
+	}
 }
 
 
