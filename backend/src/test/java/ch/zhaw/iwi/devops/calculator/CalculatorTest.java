@@ -1,11 +1,10 @@
-package com.example.demo.demo;
+package ch.zhaw.iwi.devops.calculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-@SpringBootTest
-class DemoApplicationTests {
+class CalculatorTest {
 
 	@Test
 	public void addPositiveNumbers() {
